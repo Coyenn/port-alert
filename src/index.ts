@@ -1,6 +1,6 @@
 import net from 'net';
 
-const port = 81;
+const port = 80;
 const server = net.createServer((socket) => {
   const time = new Date().toLocaleString();
 
